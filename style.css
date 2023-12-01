@@ -19,9 +19,10 @@
 }
 
 .logo {
+
     height: 50px;
     width: 100%;
-    background-image: url("C:\Users\SHREE\OneDrive\Desktop\ref=nav_logo.htm");
+    background-image: url("https://amazon-blogs-brightspot-lower.s3.amazonaws.com/about/00/92/0260aab44ee8a2faeafde18ee1da/amazon-logo-inverse.svg");
     background-size: cover;
 }
 
@@ -171,6 +172,7 @@ span {
     align-items: flex-end;
 }
 
+
 .hero-msg {
     height: 40px;
     background-color: white;
@@ -235,4 +237,80 @@ span {
 .box-contain h2 {
 
     font-size: 1.3rem;
+}
+
+/* *********************************************************************************************** */
+
+.footer-panel1 {
+    background-color: #37475a;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-panel1 a {
+
+    color: white;
+    border: none;
+    text-decoration: none;
+    font-size: 1rem;
+
+    /* text-align: center; */
+}
+
+.footer-panel2 {
+    height: 300px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.footer-panel2 a {
+    font-size: 0.85rem;
+    display: block;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.footer-panel2 p {
+
+    font-weight: 700;
+    color: white;
+}
+
+.footer-panel2 ul {
+
+    margin-top: 20px;
+}
+
+.footer-panel3 {
+    height: 20px;
+    display: flex;
+    color: white;
+    border-top: 0.5px solid white;
+    background-color: #222f3d;
+}
+
+.footer-panel4 {
+    height: 50px;
+    background-color: #000000;
+    color: white;
+
+}
+
+.footer-condition {
+
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 0.7rem;
+    text-align: center;
 }
